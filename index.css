@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* CSS Document */
+
+      <style shim-shadowdom>
+
+
+    core-header-panel {
+      float: left;
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+      background: linear-gradient(rgb(214, 227, 231), lightblue);
+
+    }
+
+
+    .core-header {
+      height: 60px;
+      line-height: 60px;
+      font-size: 18px;
+      padding: 0;
+      background-color: #4F7DC9;
+      color: #FFF;
+      transition: height 0.2s;
+    }
+    
+    .core-header.tall {
+      height: 180px;
+    }
+    
+    .core-header.medium-tall {
+      height: 120px;
+    }
+
+    core-toolbar {
+      background-color: #eeeeee;
+	  
+    }
+	paper-input{margin:0; font-size:16px; width:80%;}
+
+    core-toolbar.dark-theme {
+      background-color: #4F7DC9;
+      color: #f1f1f1;
+      fill: #f1f1f1;
+    }
+    .content {
+      background: none;
+	     position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 20px;
+    overflow: auto;
+    }
+
+   .fab {
+      position: relative;
+      display: inline-block;
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      color: #fff;
+      overflow: hidden;
+      transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      transition-delay: 0.2s;
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+	  margin-left:-25px;
+    }
+    
+	
+	
+    .fab.green {
+      background-color: #0f9d58;
+	  cursor:pointer;
+    }
+	
+    .fab:active {
+      box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+      transition-delay: 0s;
+    }
+    
+    .fab > core-icon {
+      margin: 16px;
+    }
+    
+    .fab > core-icon::shadow path {
+      fill: #fff;
+    }
+	
+	
+	    paper-fab {
+      color: #FFF;
+      margin-right:2em;
+    }
+
+    paper-fab.blue {
+      background: #5677fc;
+    }
+
+    paper-fab.green {
+      background: #0f9d58;
+    }
+	
+	
+	body /deep/ .avatar{
+	  width: 50px;
+	  height:50px;
+      border-radius: 50%;
+      margin: 10px;
+	  cursor:pointer; 
+	}
+	
+	body /deep/ .avatarSelected{
+		background:#DFFFFC}
+	
+		body /deep/ paper-dialog{
+	  max-width: 450px;
+	  
+	}
+	
+		body /deep/ paper-button{
+      font-weight: bold;
+ }
+	  
+	    body /deep/ paper-button[autofocus] {
+      color: #4285f4;
+    }
+	
+	 body /deep/ .card {
+      background: white;
+      position: relative;
+      margin: 20px 10px 20px 40px;
+      border-radius: 2px;
+	  padding:15px;
+	  display:inline-block;
+    }
+
+    body /deep/ .card-inner {
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      border-radius: 2px;
+    }
+	
+	
+	body /deep/ .alpha60 {
+  /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+
+  /* IE 5.5-7 */
+  filter: alpha(opacity=60);
+
+  /* Netscape */
+  -moz-opacity: 0.6;
+
+  /* Safari 1.x */
+  -khtml-opacity: 0.6;
+
+  /* Modern browsers */
+  opacity: 0.6;
+}
+
+      [drawer] {
+        background-color: #3b4453;
+        border-right: 1px solid #2d3440;
+      }
+      
+      [main] {
+        height: 100%;
+        background-color: #4F7DC9;
+      }
+      
+      #menubutton {
+        display: none;
+      }
+      
+      core-drawer-panel[narrow] #menubutton {
+        display: inline-block
+      }
+
+  </style>

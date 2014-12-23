@@ -1,0 +1,19 @@
+{
+  "name": "quidditch",
+  "version": "0.0.0",
+  "description": "",
+  "main": "chat-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sovlful/quidditch.git"
+  },
+  "author": "sovlful",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sovlful/quidditch/issues"
+  },
+  "homepage": "https://github.com/sovlful/quidditch"
+}
